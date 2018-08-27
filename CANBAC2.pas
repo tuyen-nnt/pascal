@@ -1,7 +1,7 @@
 program CanBac2;
 const e=0.0001;
 var
-  x:array[0..10000] of real;
+  x:array[0..1000] of real;
   i:integer;
   a:real;
 begin
