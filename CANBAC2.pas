@@ -1,5 +1,5 @@
 program CanBac2;
-const e=1E-3;
+const e=1E-4;
 var
   x:array[0..10000] of real;
   i:integer;
