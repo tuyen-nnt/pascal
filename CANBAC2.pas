@@ -1,12 +1,10 @@
 program CanBac2;
-uses crt;
 const e=1E-4;
 var
   x:array[0..10000] of real;
   i:integer;
   a:real;
 begin
-  clrscr;
   write('Nhap vao gia tri cua a: ');
   readln(a);
   if a<0 then
