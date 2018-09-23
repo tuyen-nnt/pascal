@@ -2,13 +2,12 @@ program Thutuc_chaychu;
 uses crt;
 type str79=string[79];
 var s1,s2:str79;
-    stop:boolean;
 function CatDan(s1:str79):str79;
     begin
        CatDan:=copy(s1,2,length(s1)-1)+s1[1];
     end;
 procedure CanGiua(var s:str79);
-    var i,n:integer;
+    var i:integer;
     begin
       for i:=1 to 40-length(s) div 2 do s:=' '+s;
     end;
