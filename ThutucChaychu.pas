@@ -10,8 +10,7 @@ function CatDan(s1:str79):str79;
 procedure CanGiua(var s:str79);
     var i,n:integer;
     begin
-      n:=(80-length(s)) div 2;
-      for i:=1 to n do s:=' '+s;
+      for i:=1 to 40-length(s) div 2 do s:=' '+s;
     end;
 begin
  clrscr;
