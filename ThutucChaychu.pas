@@ -5,8 +5,7 @@ function DinhDang(s1:string):string;
     begin
        DinhDang:=copy(s1,2,length(s1)-1)+s1[1];
     end; 
-begin
- clrscr; 
+begin 
  write('Nhap xau s1: '); readln(s1); 
  clrscr;
  for i:=1 to 40-length(s) div 2 do s1:=' '+s1;
