@@ -14,5 +14,4 @@ begin
       delay(500);
       s1:=copy(s1,2,length(s1)-1)+s1[1];
     end;
- readln
 end.
