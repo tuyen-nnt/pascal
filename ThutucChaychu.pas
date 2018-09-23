@@ -17,14 +17,12 @@ begin
  write('Nhap xau s1: '); readln(s1);
  CanGiua(s1);
  clrscr;
- stop:=false;
- while not (stop) do
+ while not (keypressed) do
     begin
       gotoxy(1,12);
       write(s1);
       delay(500);
       s1:=CatDan(s1);
-      stop:=keypressed;
     end;
  readln
 end.
