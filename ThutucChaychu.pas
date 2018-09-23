@@ -1,13 +1,15 @@
-program Thutuc_chaychu;
 uses crt;
-var s1,s2:string[79]; i:integer;
+var s1:string[79]; 
+    i:integer;
 function DinhDang(s1:string):string;
     begin
        DinhDang:=copy(s1,2,length(s1)-1)+s1[1];
     end; 
 begin
- clrscr; write('Nhap xau s1: '); readln(s1);
- for i:=1 to 40-length(s) div 2 do s1:=' '+s1; clrscr;
+ clrscr; 
+ write('Nhap xau s1: '); readln(s1); 
+ clrscr;
+ for i:=1 to 40-length(s) div 2 do s1:=' '+s1;
  while not (keypressed) do
     begin
       gotoxy(1,12);
