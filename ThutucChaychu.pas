@@ -3,7 +3,8 @@ var s1:string[79];
     i:integer;
 begin 
  clrscr;
- write('Nhap xau s1: '); readln(s1); 
+ write('Nhap xau s1: '); 
+ readln(s1); 
  clrscr;
  for i:=1 to 40-length(s) div 2 do s1:=' '+s1;
  while not (keypressed) do
