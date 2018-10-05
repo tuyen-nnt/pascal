@@ -1,7 +1,7 @@
 uses crt;
 var S:string[8];
     A:array[1..8] of integer;
-    N,i,k,gt:integer;
+    N,i,k,mu:integer;
 begin
    clrscr;
    write('Nhap vao xau nhi phan = ');
@@ -15,7 +15,7 @@ begin
      begin
         mu:=1;
         for k:=1 to length(s)-i do mu:=mu*2;
-        N:= N+A[i]*gt;
+        N:= N+A[i]*mu;
      end;
    write('So thap phan can tim = ',N);
    readln
