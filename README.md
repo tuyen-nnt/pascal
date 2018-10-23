@@ -1,3 +1,3 @@
 # pascal
 
-Mô tả repo `pascal`
+Luyện code các kỹ thuật cơ bản
