@@ -1,3 +1,3 @@
 # Mô tả
 
-Mô tả bài tập 
+Xếp quân hậu sao cho không con nào ăn con nào
